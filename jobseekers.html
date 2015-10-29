@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+<meta charset="UTF-8">
+<title>Job Seekers</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<link type='text/css' rel='stylesheet' href='style.css'/>
+
+
+<style>
+body{
+  padding-top:80px;
+  padding-left: 120px;
+  padding-right: 780px;
+  padding-bottom:40px;
+  background-color :blue;
+ }
+ 
+</style>
+</head>
+<body>
+<div class="jobseekers">
+ <form>
+  <div class="form-group">
+  <label for="Full Name">Full Name</label>
+  <input type="text" class="form-control" id="inputName" placeholder="Full Name">
+ </div>
+ <div class="form-group">
+ <label for="Username">Username</label>
+ <input type="text" class="form-control" id="inputUsername" placeholder="Username">
+ </div>
+ <div class="form-group">
+ <label for="Photo">Photo</label>
+ <div class="fileupload fileupload-new" data-provides="fileupload">
+  <div class="fileupload-preview thumbnail" style="width: 200px; height: 150px;"></div>
+  <div>
+    <span class="btn btn-file"><span class="fileupload-new">Select image</span><span class="fileupload-exists">Change</span><input type="file" /></span>
+    <a href="#" class="btn fileupload-exists" data-dismiss="fileupload">Remove</a>
+  </div>
+</div>
+</div>
+<div class="form-group">
+<label for="Resume">Resume</label>
+<input name="Upload Saved Replay" type="file" accept="application/pdf,application/msword,application/vnd.openxmlformats-officedocument.wordprocessingml.document"/>
+</div>
+<div class="form-group">
+<label for="Linkedin URL">Linkedin</label>
+<input type="text"  placeholder="Linkedin Profile">
+</div>
+<div class="form-group">
+<label for="Facebook URL">Facebook</label>
+<input type="text"  placeholder="Facebook Profile">
+</div>
+<div class="form-group">
+<label for="Twitter URL">Twitter</label>
+<input type="text"  placeholder="Twitter Profile">
+</div>
+<button type="submit" class="btn btn-default">Submit</button>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script> 
+
+</body>
